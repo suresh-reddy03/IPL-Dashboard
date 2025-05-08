@@ -23,5 +23,11 @@
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+}
+
+.item-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   text-decoration: none;
 }

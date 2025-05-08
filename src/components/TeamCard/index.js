@@ -7,8 +7,8 @@ const TeamCard = props => {
   const {id, name, teamImageUrl} = item
 
   return (
-    <Link to={`/team-matches/${id}`} className="item-link">
-      <li className="team-card-item">
+    <Link to={`/team-matches/${id}`} className="item-link" key={id}>
+      <li className="team-card-item" key={id}>
         <img src={teamImageUrl} alt={name} className="team-image" />
         <p className="team-name">{name}</p>
       </li>
