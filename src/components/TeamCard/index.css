@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.team-card-item {
+  width: 40vw;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.team-image {
+  width: 15vw;
+  height: 18vh;
+  margin-right: 5px;
+}
+
+.team-name {
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.team-match-details-container {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+
+.team-banner-img {
+  width: 80vw;
+  height: 40vh;
+  margin-top: 50px;
+}
+
+.latest-matches-heading {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  align-self: flex-start;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
